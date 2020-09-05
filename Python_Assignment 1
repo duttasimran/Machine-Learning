@@ -9,11 +9,14 @@ while start_index <=end_index:
 print (list_final)
 
 ## Question 2
+f_name=input('Enter your First Name:')
+l_name=input('Enter your Last Name:')
+val=f_name+" "+l_name
+print(val[::-1])
+
+
+#Question 3
 import math
 diameter=12
 print ('Diameter of the circle is :',4/3*math.pi*(diameter/2))
 
-
-#Question 3
-val=input('Enter your Name:')
-print(val[::-1])
