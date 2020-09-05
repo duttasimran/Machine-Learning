@@ -1,0 +1,19 @@
+## Question 1
+start_index=2000
+end_index=3200
+list_final=[]
+while start_index <=end_index:
+    if start_index % 7 == 0 and start_index % 5 != 0:
+        list_final.append(start_index)
+    start_index=start_index+1
+print (list_final)
+
+## Question 2
+import math
+diameter=12
+print ('Diameter of the circle is :',4/3*math.pi*(diameter/2))
+
+
+#Question 3
+val=input('Enter your Name:')
+print(val[::-1])
